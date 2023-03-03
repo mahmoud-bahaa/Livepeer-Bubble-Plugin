@@ -1,0 +1,21 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "add_large_file_upload_properties": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 400,
+        "width": 600
+    },
+    "display": "Video Player (Livepeer)",
+    "icon": "ion-ios-videocam",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}
