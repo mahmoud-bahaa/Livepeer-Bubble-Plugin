@@ -1,4 +1,4 @@
 {
-    "auth": "private_key_header",
+    "auth": "none",
     "human": "New API"
 }

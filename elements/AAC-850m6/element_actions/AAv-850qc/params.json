@@ -1,0 +1,14 @@
+{
+    "caption": "AddVideoTrack",
+    "fields": {
+        "AAx": {
+            "caption": "playback_id",
+            "doc": "Livepeer Playback ID",
+            "editor": "DynamicValue",
+            "name": "playback_id",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

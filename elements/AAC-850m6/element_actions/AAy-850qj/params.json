@@ -1,0 +1,12 @@
+{
+    "caption": "ChangeSource",
+    "fields": {
+        "ABA": {
+            "caption": "playback_id",
+            "editor": "DynamicValue",
+            "name": "playback_id",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

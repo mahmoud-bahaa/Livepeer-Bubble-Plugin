@@ -7,5 +7,8 @@
     },
     "description": "This plugin allows you to integrate Livepeer to your application. ",
     "image": "//s3.amazonaws.com/appforest_uf/f1677840461056x547236357888976300/1_zA99E7vjnegqLuj5Jrvw0Q.png",
-    "name": "Livepeer"
+    "license": "open_source",
+    "name": "Livepeer",
+    "plugin_instructions": "To get the playback ID, you need to upload your video asset to https://livepeer.studio and retrieve your ID from there. This is an open source project and is not affiliated to Livepeer Inc. ",
+    "sa_node_version": 14
 }

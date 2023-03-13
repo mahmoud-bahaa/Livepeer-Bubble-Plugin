@@ -1,4 +1,14 @@
 {
+    "assets": {
+        "ABe": {
+            "name": "Livepeer Poster",
+            "url": "//meta.cdn.bubble.io/f1678710929144x382027006196397950/livepeer_poster.jpeg"
+        },
+        "ABf": {
+            "name": "Livepeer Preview",
+            "url": "//meta.cdn.bubble.io/f1678713240183x512189320273869440/livepeer_logo.jpeg"
+        }
+    },
     "dependencies": {
         "plugin_api_version": 3,
         "use_jquery": true
