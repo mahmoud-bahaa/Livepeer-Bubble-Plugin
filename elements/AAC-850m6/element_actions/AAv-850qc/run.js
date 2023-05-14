@@ -1,11 +1,11 @@
 function(instance, properties, context) {
-    var track;
+   var track;
     
-   if (properties.playback_id) {
-        var url = getVideoURL(properties.playback_id);
+   if (properties.video_src) {
+        //var url = getVideoURL(properties.playback_id);
 
         track = new videojs.VideoTrack({
-              src: url,
+              src: properties.video_src,
               kind: "main"
           });
 	}

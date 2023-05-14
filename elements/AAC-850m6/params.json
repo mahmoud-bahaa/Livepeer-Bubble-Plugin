@@ -111,13 +111,13 @@
             "value": "number"
         },
         "ABQ": {
-            "caption": "playback_id",
-            "doc": "Livepeer's Playback ID",
+            "caption": "Video Source ",
+            "doc": "Asset or Stream Playback URL (from Livepeer Studio)",
             "editor": "DynamicValue",
-            "name": "playback_id",
+            "name": "video_src",
             "optional": true,
             "rank": 0,
-            "value": "text"
+            "value": "file"
         }
     },
     "icon": "ion-ios-videocam",

@@ -89,7 +89,8 @@ function(instance, context) {
             }
             
         });
-          
+        
+        
         instance.data.vjsPlayer = vjsPlayer;
         instance.data.id = elementId;
 

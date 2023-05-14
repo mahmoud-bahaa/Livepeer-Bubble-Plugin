@@ -1,11 +1,10 @@
 function(instance, properties, context) {
 
-    var preload = properties.preload.toLowerCase();
     var options = {
         controls: properties.controls,
         autoplay: properties.autoplay,
         loop: properties.loop,
-        preload: preload,
+
         muted: properties.muted
     }
 
@@ -51,9 +50,10 @@ function(instance, properties, context) {
 
         var vjsPlayer = instance.data.vjsPlayer;
         
-        if (properties.video_src) {
-            //var url = getVideoURL(properties.playback_id);
-            vjsPlayer.src(properties.video_src);
+        if (properties.playback_id) {
+            var url = getVideoURL(properties.playback_id);
+            var SourceObject = {src: properties.source_url};
+            vjsPlayer.src(SourceObject);
         }
         
         
@@ -72,7 +72,9 @@ function(instance, properties, context) {
         if (properties.poster) {
         	vjsPlayer.poster(properties.poster);
         }
-        else {           vjsPlayer.poster("//meta.cdn.bubble.io/f1678710929144x382027006196397950/livepeer_poster.jpeg");
+        else {
+            
+           vjsPlayer.poster("//meta.cdn.bubble.io/f1678710929144x382027006196397950/livepeer_poster.jpeg");
             
         }
                
