@@ -52,7 +52,7 @@
         "AAQ": {
             "caption": "controls",
             "default_val": true,
-            "doc": "Show controls?",
+            "doc": "Show playback controls",
             "editor": "Checkbox",
             "name": "controls",
             "rank": 2
@@ -60,7 +60,7 @@
         "AAR": {
             "caption": "autoplay",
             "default_val": false,
-            "doc": "Autoplay?",
+            "doc": "Autoplay when player is loaded",
             "editor": "Checkbox",
             "name": "autoplay",
             "rank": 3
@@ -68,7 +68,7 @@
         "AAS": {
             "caption": "loop",
             "default_val": false,
-            "doc": "Loop?",
+            "doc": "Play on loop",
             "editor": "Checkbox",
             "name": "loop",
             "rank": 4
@@ -76,14 +76,14 @@
         "AAT": {
             "caption": "muted",
             "default_val": true,
-            "doc": "Start muted?",
+            "doc": "Video player starts on mute",
             "editor": "Checkbox",
             "name": "muted",
             "rank": 5
         },
         "AAV": {
             "caption": "skin_file",
-            "doc": "Load a custom css file",
+            "doc": "A custom CSS file for styling the player",
             "editor": "DynamicValue",
             "name": "skin_file",
             "optional": true,
@@ -93,22 +93,12 @@
         "AAW": {
             "caption": "preload",
             "default_val": "Auto",
-            "doc": "Preload video?",
+            "doc": "Preload video for faster time to first frame",
             "editor": "Dropdown",
             "name": "preload",
             "optional": true,
             "options": "Auto,Metadata,None",
             "rank": 7
-        },
-        "AAX": {
-            "caption": "timed_cue_event",
-            "doc": "List of start time to trigger event during playing. (value in s)",
-            "editor": "DynamicValue",
-            "is_list": true,
-            "name": "timed_cue_event",
-            "optional": true,
-            "rank": 8,
-            "value": "number"
         },
         "ABQ": {
             "caption": "Video Source ",
