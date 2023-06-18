@@ -2,9 +2,13 @@
     "add_is_visible": true,
     "category": "input forms",
     "default_dim": {
-        "height": 200,
-        "width": 400
+        "height": 50,
+        "width": 50
     },
     "display": "Livepeer Transcoder",
-    "icon": "ion-android-upload"
+    "icon": "ion-android-upload",
+    "property_applications": {
+        "Background": false,
+        "resizable": true
+    }
 }

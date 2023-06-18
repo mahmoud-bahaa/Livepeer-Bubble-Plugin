@@ -7,12 +7,13 @@
             "headers": {
                 "0": {
                     "key": "content-type",
-                    "value": "application/json"
+                    "value": "application/json",
+                    "visibility": "hidden"
                 }
             },
             "initialized": true,
             "method": "post",
-            "name": "Upload Video",
+            "name": "UploadVideo",
             "params": {
                 "ADE": {
                     "doc": "Asset name as displayed on Livepeer Studio",
@@ -25,7 +26,7 @@
                     "doc": "Video source URL",
                     "key": "url",
                     "private": true,
-                    "value": "https://1b2a5e7533451338bb865e0889d4f6f1.cdn.bubble.io/f1686951052047x690954634770831100/cans.mp4"
+                    "value": ""
                 }
             },
             "publish_as": "action",
@@ -35,6 +36,27 @@
             "types": "{\"plugin_api.ACs\":{\"caption\":\"Upload Video\",\"fields\":{\"_p_body.asset.id\":{\"ret_value\":\"text\",\"caption\":\"body asset id\",\"sample_value\":\"4f1b2159-afd8-4fd3-8008-d49bcc59143a\",\"path\":[\"body\",\"asset\",\"id\"]},\"_p_body.asset.playbackId\":{\"ret_value\":\"text\",\"caption\":\"body asset playbackId\",\"sample_value\":\"4f1bd4gn23kq3mem\",\"path\":[\"body\",\"asset\",\"playbackId\"]},\"_p_body.asset.userId\":{\"ret_value\":\"text\",\"caption\":\"body asset userId\",\"sample_value\":\"a10c06fa-1518-4691-9b8e-9011d8c70697\",\"path\":[\"body\",\"asset\",\"userId\"]},\"_p_body.asset.createdAt\":{\"ret_value\":\"number\",\"caption\":\"body asset createdAt\",\"sample_value\":1686952482065,\"path\":[\"body\",\"asset\",\"createdAt\"]},\"_p_body.asset.status.phase\":{\"ret_value\":\"text\",\"caption\":\"body asset status phase\",\"sample_value\":\"waiting\",\"path\":[\"body\",\"asset\",\"status\",\"phase\"]},\"_p_body.asset.status.updatedAt\":{\"ret_value\":\"number\",\"caption\":\"body asset status updatedAt\",\"sample_value\":1686952482065,\"path\":[\"body\",\"asset\",\"status\",\"updatedAt\"]},\"_p_body.asset.name\":{\"ret_value\":\"text\",\"caption\":\"body asset name\",\"sample_value\":\"asset_name\",\"path\":[\"body\",\"asset\",\"name\"]},\"_p_body.asset.source.type\":{\"ret_value\":\"text\",\"caption\":\"body asset source type\",\"sample_value\":\"url\",\"path\":[\"body\",\"asset\",\"source\",\"type\"]},\"_p_body.asset.source.url\":{\"ret_value\":\"text\",\"caption\":\"body asset source url\",\"sample_value\":\"https://1b2a5e7533451338bb865e0889d4f6f1.cdn.bubble.io/f1686951052047x690954634770831100/cans.mp4\",\"path\":[\"body\",\"asset\",\"source\",\"url\"]},\"_p_body.task.id\":{\"ret_value\":\"text\",\"caption\":\"body task id\",\"sample_value\":\"9ac2c4dd-69c2-47e3-a891-d7567a1ab567\",\"path\":[\"body\",\"task\",\"id\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":201,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"Created\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"{\\\\\\\"asset\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"4f1b2159-afd8-4fd3-8008-d49bcc59143a\\\\\\\",\\\\\\\"playbackId\\\\\\\":\\\\\\\"4f1bd4gn23kq3mem\\\\\\\",\\\\\\\"userId\\\\\\\":\\\\\\\"a10c06fa-1518-4691-9b8e-9011d8c70697\\\\\\\",\\\\\\\"createdAt\\\\\\\":1686952482065,\\\\\\\"status\\\\\\\":{\\\\\\\"phase\\\\\\\":\\\\\\\"waiting\\\\\\\",\\\\\\\"updatedAt\\\\\\\":1686952482065},\\\\\\\"name\\\\\\\":\\\\\\\"asset_name\\\\\\\",\\\\\\\"source\\\\\\\":{\\\\\\\"type\\\\\\\":\\\\\\\"url\\\\\\\",\\\\\\\"url\\\\\\\":\\\\\\\"https://1b2a5e7533451338bb865e0889d4f6f1.cdn.bubble.io/f1686951052047x690954634770831100/cans.mp4\\\\\\\"}},\\\\\\\"task\\\\\\\":{\\\\\\\"id\\\\\\\":\\\\\\\"9ac2c4dd-69c2-47e3-a891-d7567a1ab567\\\\\\\"}}\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]},\"_p_headers.date\":{\"ret_value\":\"text\",\"caption\":\"headers date\",\"sample_value\":\"Fri, 16 Jun 2023 21:54:43 GMT\",\"path\":[\"headers\",\"date\"]},\"_p_headers.content-type\":{\"ret_value\":\"text\",\"caption\":\"headers content-type\",\"sample_value\":\"application/json; charset=utf-8\",\"path\":[\"headers\",\"content-type\"]},\"_p_headers.content-length\":{\"ret_value\":\"text\",\"caption\":\"headers content-length\",\"sample_value\":\"419\",\"path\":[\"headers\",\"content-length\"]},\"_p_headers.connection\":{\"ret_value\":\"_ignore\"},\"_p_headers.cf-ray\":{\"ret_value\":\"_ignore\"},\"_p_headers.cf-cache-status\":{\"ret_value\":\"_ignore\"},\"_p_headers.etag\":{\"ret_value\":\"_ignore\"},\"_p_headers.strict-transport-security\":{\"ret_value\":\"_ignore\"},\"_p_headers.vary\":{\"ret_value\":\"_ignore\"},\"_p_headers.access-control-allow-credentials\":{\"ret_value\":\"_ignore\"},\"_p_headers.access-control-expose-headers\":{\"ret_value\":\"_ignore\"},\"_p_headers.x-powered-by\":{\"ret_value\":\"_ignore\"},\"_p_headers.report-to\":{\"ret_value\":\"_ignore\"},\"_p_headers.nel\":{\"ret_value\":\"_ignore\"},\"_p_headers.server\":{\"ret_value\":\"_ignore\"},\"_p_headers.alt-svc\":{\"ret_value\":\"_ignore\"}}}}",
             "url": "https://livepeer.studio/api/asset/upload/url",
             "wrap_error": true
+        },
+        "ADG": {
+            "body": "{}",
+            "doc_link": "https://docs.livepeer.org/reference/api#retrieve-assets",
+            "headers": {
+                "0": {
+                    "key": "content-type",
+                    "value": "application/json",
+                    "visibility": "hidden"
+                }
+            },
+            "initialized": true,
+            "is_list": true,
+            "method": "get",
+            "name": "GetAllVideos",
+            "publish_as": "data",
+            "rank": 1,
+            "ret_value": "api.1677840415216x421611770103726100.plugin_api.ADG",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ADG\":{\"caption\":\"GetAllVideo\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"53cb07f0-17d0-4a05-a4f9-b6cdb7be8e0a\",\"path\":[\"id\"]},\"_p_name\":{\"ret_value\":\"text\",\"caption\":\"name\",\"sample_value\":\"auto_delete\",\"path\":[\"name\"]},\"_p_source.url\":{\"ret_value\":\"text\",\"caption\":\"source url\",\"sample_value\":\"https://1b2a5e7533451338bb865e0889d4f6f1.cdn.bubble.io/f1687118720185x715452466842154800/cans.mp4\",\"path\":[\"source\",\"url\"]},\"_p_source.type\":{\"ret_value\":\"_ignore\"},\"_p_status.phase\":{\"ret_value\":\"text\",\"caption\":\"status phase\",\"sample_value\":\"failed\",\"path\":[\"status\",\"phase\"]},\"_p_status.updatedAt\":{\"ret_value\":\"number\",\"caption\":\"status updatedAt\",\"sample_value\":1687118734533,\"path\":[\"status\",\"updatedAt\"]},\"_p_status.errorMessage\":{\"ret_value\":\"text\",\"caption\":\"status errorMessage\",\"sample_value\":\"file could not be imported from URL because it was not accessible\",\"path\":[\"status\",\"errorMessage\"]},\"_p_userId\":{\"ret_value\":\"text\",\"caption\":\"userId\",\"sample_value\":\"a10c06fa-1518-4691-9b8e-9011d8c70697\",\"path\":[\"userId\"]},\"_p_createdAt\":{\"ret_value\":\"number\",\"caption\":\"createdAt\",\"sample_value\":1687118723710,\"path\":[\"createdAt\"]},\"_p_playbackId\":{\"ret_value\":\"text\",\"caption\":\"playbackId\",\"sample_value\":\"53cbbesqldmwuben\",\"path\":[\"playbackId\"]},\"_p_hash\":{\"ret_value\":\"list.api.1677840415216x421611770103726100.plugin_api.ADG.hash\",\"caption\":\"hash\",\"path\":[\"hash\"]},\"_p_size\":{\"ret_value\":\"number\",\"caption\":\"size\",\"sample_value\":23951195,\"path\":[\"size\"]},\"_p_videoSpec.format\":{\"ret_value\":\"text\",\"caption\":\"videoSpec format\",\"sample_value\":\"mp4\",\"path\":[\"videoSpec\",\"format\"]},\"_p_videoSpec.duration\":{\"ret_value\":\"number\",\"caption\":\"videoSpec duration\",\"sample_value\":13.2,\"path\":[\"videoSpec\",\"duration\"]},\"_p_playbackUrl\":{\"ret_value\":\"text\",\"caption\":\"playbackUrl\",\"sample_value\":\"https://lp-playback.com/hls/87bakd5hssutzrwp/index.m3u8\",\"path\":[\"playbackUrl\"]},\"_p_downloadUrl\":{\"ret_value\":\"text\",\"caption\":\"downloadUrl\",\"sample_value\":\"https://lp-playback.com/hls/87bakd5hssutzrwp/video\",\"path\":[\"downloadUrl\"]}}},\"plugin_api.ADG.hash\":{\"caption\":\"GetAllVideos hash\",\"fields\":{\"_p_hash\":{\"ret_value\":\"text\",\"caption\":\"hash\",\"sample_value\":\"ea1da4913fdb88787f65ed65c6597b6c\",\"path\":[\"hash\"]},\"_p_algorithm\":{\"ret_value\":\"text\",\"caption\":\"algorithm\",\"sample_value\":\"md5\",\"path\":[\"algorithm\"]}}}}",
+            "url": "https://livepeer.studio/api/asset"
         }
     },
     "human": "Livepeer API",
