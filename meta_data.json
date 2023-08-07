@@ -5,10 +5,12 @@
         "2": "media",
         "3": "containers"
     },
-    "description": "This plugin allows you to integrate Livepeer into your application. ",
+    "demo_page": "http://livepeerpluginapp.joincluster.com",
+    "description": "This plugin allows you to integrate Livepeer into your application. Livepeer is a 1-stop shop for app builders to incorporate video into their apps seamlessly at a competitive price compared to established cloud services. Through Livepeer, users can upload, transcode, store, and distribute videos globally. Integrating Livepeer into applications requires coding knowledge which excluded some of the non-tech entrepreneurs and app builders from enjoying its benefits. With this plugin, everyone can use Livepeer with easy-to-use drag-and-drop components. ",
     "image": "//s3.amazonaws.com/appforest_uf/f1677840461056x547236357888976300/1_zA99E7vjnegqLuj5Jrvw0Q.png",
     "license": "open_source",
+    "link": "https://coconut-cousin-863.notion.site/Bubble-Plugin-Documentation-Livepeer-ef135c8e971740ee8cb9f07460af27c9",
     "name": "Livepeer",
-    "plugin_instructions": "To get the playback ID, you need to upload your video asset to https://livepeer.studio and retrieve your ID from there. This is an open source project and is not affiliated to Livepeer Inc. ",
+    "plugin_instructions": "Video Tutorial: https://www.youtube.com/watch?v=U1I2tzVQjS4\n\nGithub: https://github.com/mahmoud-bahaa/Livepeer-Bubble-Plugin\n\nPrior to using the plugin please do the following:\n1. Create an account on Livepeer Studio (http://livepeer.studio).\n2. Set up an API key and keep it in hand when requested by the plugin.\n\n\nTo play videos:\n1. Add Livepeer Player to your app\n2. Set Video Source to your live HLS manifest for or source URL. \n\nTo upload and transcode files:\n1. Add Livepeer Transcoder to your app (the element won't be visible to users). \n2. Set the name and URL of the UploadVideo API. \n\nTo retrieve Livepeer videos:\n1. Add Livepeer Transcoder to your app (the element won't be visible to users). \n2. Use GetAllVideos API \n",
     "sa_node_version": 14
 }
