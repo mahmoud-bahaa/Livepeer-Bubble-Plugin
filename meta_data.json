@@ -5,7 +5,7 @@
         "2": "media",
         "3": "containers"
     },
-    "description": "This plugin allows you to integrate Livepeer to your application. ",
+    "description": "This plugin allows you to integrate Livepeer into your application. ",
     "image": "//s3.amazonaws.com/appforest_uf/f1677840461056x547236357888976300/1_zA99E7vjnegqLuj5Jrvw0Q.png",
     "license": "open_source",
     "name": "Livepeer",

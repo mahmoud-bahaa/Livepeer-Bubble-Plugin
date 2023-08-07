@@ -9,11 +9,6 @@
     },
     "display": "Livepeer Player",
     "events": {
-        "AAf": {
-            "caption": "reached the end of the media resource (currentTime == duration)",
-            "doc": "Fires on finish ( end of the media resource)",
-            "name": "ended"
-        },
         "AAg": {
             "caption": "has started or resumed",
             "doc": "Fires on play (started or resumed)",
@@ -22,16 +17,6 @@
         "AAh": {
             "caption": "pause",
             "name": "pause"
-        },
-        "AAi": {
-            "caption": "cue_start",
-            "doc": "Fires with a cue starts (id of the cue is state active_cue).",
-            "name": "cue_start"
-        },
-        "AAj": {
-            "caption": "cue_stop",
-            "doc": "Fires with cue ends",
-            "name": "cue_stop"
         },
         "AAk": {
             "caption": "timed_event",
@@ -123,59 +108,12 @@
     "states": {
         "AAY": {
             "caption": "status",
+            "doc": "Video status (stopped, paused, or playing)",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\nreturn \"stopped\";\n\n}"
             },
             "name": "status",
             "value": "text"
-        },
-        "AAZ": {
-            "caption": "Current Time",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn 0;\n\n}"
-            },
-            "name": "current_time",
-            "value": "number"
-        },
-        "AAa": {
-            "caption": "Remaining Time",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn 0;\n\n}"
-            },
-            "name": "remaining_time",
-            "value": "number"
-        },
-        "AAb": {
-            "caption": "Duration",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn 0;\n\n}"
-            },
-            "name": "duration_time",
-            "value": "number"
-        },
-        "AAc": {
-            "caption": "ratio_played",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn 0;\n\n}"
-            },
-            "name": "ratio_played",
-            "value": "number"
-        },
-        "AAd": {
-            "caption": "active_cue",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn \"\";\n\n}"
-            },
-            "name": "active_cue",
-            "value": "text"
-        },
-        "AAe": {
-            "caption": "last_timed_event",
-            "initialization_code": {
-                "fn": "function(properties, context) {\n\nreturn 0;\n\n}"
-            },
-            "name": "last_timed_event",
-            "value": "number"
         }
     }
 }
